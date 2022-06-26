@@ -2,7 +2,9 @@ package com.alaminkarno.meowbottomnavigation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
@@ -89,5 +91,9 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
 
+    }
+
+    public void setOpenFirebaseConfigurations(View view) {
+        startActivity(new Intent(MainActivity.this,FirebaseActivity.class));
     }
 }

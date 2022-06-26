@@ -20,6 +20,13 @@
         app:mbn_selectedIconColor="#3c415e"
         app:mbn_shadowColor="#1f212121"/>
 
+    <Button
+        android:onClick="setOpenFirebaseConfigurations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Firebase Configuration"/>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
